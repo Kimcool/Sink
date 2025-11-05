@@ -12,14 +12,6 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
         sm:flex-row
       "
     >
-      <a
-        href="https://i.aff.dev"
-        class="
-          text-xl leading-none font-black text-gray-900 select-none
-          dark:text-gray-100
-        "
-        :title="title"
-      >AFF</a>
 
         &copy; {{ new Date().getFullYear() }} 部署于 Cloudflare Workers
 

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col items-center justify-center min-h-screen bg-white text-gray-800 pt-10 sm:pt-16"
+    class="flex flex-col items-center justify-center min-h-screen bg-white text-gray-800 pt-4 sm:pt-10 -translate-y-6"
   >
     <!-- 标题 -->
     <h1

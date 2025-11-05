@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center justify-center min-h-screen bg-white text-gray-800">
+<div class="flex flex-col items-center justify-center min-h-screen bg-white text-gray-800 pt-10 sm:pt-16">
     <!-- 标题 -->
     <h1 class="text-5xl sm:text-6xl font-extrabold mb-6 text-center text-gray-900">
       🚀 Welcome to <span class="text-blue-600">AFF</span>

@@ -14,7 +14,7 @@
       >
         <h3 class="text-xl font-semibold mb-1 text-blue-600">Dmit</h3>
         <p class="text-sm text-gray-600">
-          优质稳定的云服务 · 多条线路 · 按量计费
+          美西、日本、香港线路，稳定可靠
         </p>
       </a>
 
@@ -25,29 +25,29 @@
       >
         <h3 class="text-xl font-semibold mb-1 text-blue-600">Green VPS</h3>
         <p class="text-sm text-gray-600">
-          安全可靠 · 7x24 支持 · 高性价比
+          美西，东南亚，便宜，活动多
         </p>
       </a>
 
       <a
-        href="https://apps.apple.com/us/app/redteago-esim-travel-internet/id1492864476"
+        href="https://i.aff.dev/bwg"
         target="_blank"
         class="block bg-gray-50 rounded-xl p-5 border border-gray-200 hover:border-blue-400 hover:shadow transition"
       >
-        <h3 class="text-xl font-semibold mb-1 text-blue-600">📱 红茶移动 RedteaGO</h3>
+        <h3 class="text-xl font-semibold mb-1 text-blue-600">Bandwagonhost</h3>
         <p class="text-sm text-gray-600">
-          邀请码：<b>MONS0030</b> · 全球 eSIM · 即买即用
+          美西、日本、香港线路，很稳的，上游是 Dmit
         </p>
       </a>
 
       <a
-        href="https://greencloudvps.com/billing/aff.php?aff=4451"
+        href="https://i.aff.dev/rfc"
         target="_blank"
         class="block bg-gray-50 rounded-xl p-5 border border-gray-200 hover:border-blue-400 hover:shadow transition"
       >
-        <h3 class="text-xl font-semibold mb-1 text-blue-600">🖥️ GreenCloud VPS</h3>
+        <h3 class="text-xl font-semibold mb-1 text-blue-600">RFC Host</h3>
         <p class="text-sm text-gray-600">
-          全球多机房 · 高性价比 · 灵活配置
+          香港、日本线路好，中国网络优化多
         </p>
       </a>
     </section>

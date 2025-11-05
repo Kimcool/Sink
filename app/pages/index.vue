@@ -70,7 +70,7 @@
     </div>
 
     <footer class="absolute bottom-5 text-sm text-white/80">
-      © 2025 My Sink · 部署于 Cloudflare Workers
+      © 2025 AFF · 部署于 Cloudflare Workers
     </footer>
   </div>
 </template>

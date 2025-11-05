@@ -56,5 +56,6 @@
 </template>
 
 <script setup>
-// 无需逻辑，仅静态展示
-</script>
+useHead({
+  title: 'All For Future',
+})</script>

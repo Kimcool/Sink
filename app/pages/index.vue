@@ -57,5 +57,5 @@
 
 <script setup>
 useHead({
-  title: 'All For Future',
+  title: 'AFF - All For Future',
 })</script>

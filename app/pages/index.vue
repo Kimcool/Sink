@@ -8,7 +8,7 @@
     <!-- 机场服务导航 -->
     <section class="grid grid-cols-1 sm:grid-cols-2 gap-5 max-w-3xl w-full px-6">
       <a
-        href="https://a.aff.dev/dmit"
+        href="https://i.aff.dev/dmit"
         target="_blank"
         class="block bg-gray-50 rounded-xl p-5 border border-gray-200 hover:border-blue-400 hover:shadow transition"
       >
@@ -19,7 +19,7 @@
       </a>
 
       <a
-        href="https://a.aff.dev/green"
+        href="https://i.aff.dev/green"
         target="_blank"
         class="block bg-gray-50 rounded-xl p-5 border border-gray-200 hover:border-blue-400 hover:shadow transition"
       >

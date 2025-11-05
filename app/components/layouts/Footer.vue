@@ -20,17 +20,9 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
         "
         :title="title"
       >AFF</a>
-      <a
-        class="
-          mt-4 text-sm text-gray-500
-          sm:mt-0 sm:ml-4 sm:border-l sm:border-gray-200 sm:pl-4
-        "
-        href="https://i.aff.dev"
-        target="_blank"
-        title="AFF"
-      >
+
         &copy; {{ new Date().getFullYear() }} 部署于 Cloudflare Workers
-      </a>
+
     </div>
   </section>
 </template>

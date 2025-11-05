@@ -52,10 +52,6 @@
       </a>
     </section>
 
-    <!-- 页脚 -->
-    <footer class="mt-12 text-sm text-gray-400">
-      © 2025 AFF · 部署于 Cloudflare Workers
-    </footer>
   </div>
 </template>
 

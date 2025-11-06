@@ -21,7 +21,7 @@
               <div class="w-10 h-10 flex items-center justify-center bg-gradient-to-tr from-blue-300 to-blue-100 rounded-md text-xl text-blue-600 flex-shrink-0">
                 🚀
               </div>
-              <h3 class="font-semibold text-[1.125rem] sm:text-xl md:text-[1.25rem] text-gray-900 mb-3
+              <h3 class="font-semibold text-[1.125rem] sm:text-xl md:text-[1.25rem] text-gray-900 mb-5
                          group-hover:text-blue-600 group-hover:underline group-hover:decoration-wavy group-hover:underline-offset-[5px]">
                 Dmit
               </h3>
@@ -40,7 +40,7 @@
               <div class="w-10 h-10 flex items-center justify-center bg-gradient-to-tr from-green-300 to-green-100 rounded-md text-xl text-green-600 flex-shrink-0">
                 🖥️
               </div>
-              <h3 class="font-semibold text-[1.125rem] sm:text-xl md:text-[1.25rem] text-gray-900 mb-3
+              <h3 class="font-semibold text-[1.125rem] sm:text-xl md:text-[1.25rem] text-gray-900 mb-5
                          group-hover:text-blue-600 group-hover:underline group-hover:decoration-wavy group-hover:underline-offset-[5px]">
                 Green VPS
               </h3>
@@ -59,7 +59,7 @@
               <div class="w-10 h-10 flex items-center justify-center bg-gradient-to-tr from-purple-300 to-purple-100 rounded-md text-xl text-purple-600 flex-shrink-0">
                 🌏
               </div>
-              <h3 class="font-semibold text-[1.125rem] sm:text-xl md:text-[1.25rem] text-gray-900 mb-3
+              <h3 class="font-semibold text-[1.125rem] sm:text-xl md:text-[1.25rem] text-gray-900 mb-5
                          group-hover:text-blue-600 group-hover:underline group-hover:decoration-wavy group-hover:underline-offset-[5px]">
                 BandwagonHost
               </h3>
@@ -78,7 +78,7 @@
               <div class="w-10 h-10 flex items-center justify-center bg-gradient-to-tr from-cyan-300 to-cyan-100 rounded-md text-xl text-cyan-600 flex-shrink-0">
                 ⚡
               </div>
-              <h3 class="font-semibold text-[1.125rem] sm:text-xl md:text-[1.25rem] text-gray-900 mb-3
+              <h3 class="font-semibold text-[1.125rem] sm:text-xl md:text-[1.25rem] text-gray-900 mb-5
                          group-hover:text-blue-600 group-hover:underline group-hover:decoration-wavy group-hover:underline-offset-[5px]">
                 RFC Host
               </h3>
@@ -106,7 +106,7 @@
               <div class="w-10 h-10 flex items-center justify-center bg-gradient-to-tr from-blue-300 to-blue-100 rounded-md text-xl text-blue-600 flex-shrink-0">
                 🔗
               </div>
-              <h3 class="font-semibold text-[1.125rem] sm:text-xl md:text-[1.25rem] text-gray-900 mb-3
+              <h3 class="font-semibold text-[1.125rem] sm:text-xl md:text-[1.25rem] text-gray-900 mb-5
                          group-hover:text-blue-600 group-hover:underline group-hover:decoration-wavy group-hover:underline-offset-[5px]">
                 NameSilo
               </h3>
@@ -125,7 +125,7 @@
               <div class="w-10 h-10 flex items-center justify-center bg-gradient-to-tr from-purple-300 to-purple-100 rounded-md text-xl text-purple-600 flex-shrink-0">
                 🪄
               </div>
-              <h3 class="font-semibold text-[1.125rem] sm:text-xl md:text-[1.25rem] text-gray-900 mb-3
+              <h3 class="font-semibold text-[1.125rem] sm:text-xl md:text-[1.25rem] text-gray-900 mb-5
                          group-hover:text-blue-600 group-hover:underline group-hover:decoration-wavy group-hover:underline-offset-[5px]">
                 Dynadot
               </h3>
@@ -144,7 +144,7 @@
               <div class="w-10 h-10 flex items-center justify-center bg-gradient-to-tr from-cyan-300 to-cyan-100 rounded-md text-xl text-cyan-600 flex-shrink-0">
                 ☁️
               </div>
-              <h3 class="font-semibold text-[1.125rem] sm:text-xl md:text-[1.25rem] text-gray-900 mb-3
+              <h3 class="font-semibold text-[1.125rem] sm:text-xl md:text-[1.25rem] text-gray-900 mb-5
                          group-hover:text-blue-600 group-hover:underline group-hover:decoration-wavy group-hover:underline-offset-[5px]">
                 Cloudflare
               </h3>

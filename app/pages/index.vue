@@ -91,9 +91,6 @@
 
     </main>
 
-    <footer class="mt-12 text-sm text-gray-400">
-      © 2025 AFF Hub · 部署于 Cloudflare Pages
-    </footer>
   </div>
 </template>
 

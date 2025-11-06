@@ -36,7 +36,7 @@ const { title, github } = useAppConfig()
                 class="h-full w-full rounded-full"
               >
             </span>
-            <span class="mx-2">AFF</span>
+            <span class="mx-2">All For Future</span>
           </a>
         </div>
 

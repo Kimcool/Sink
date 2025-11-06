@@ -122,10 +122,10 @@
         </div>
       </section>
 
-      <!-- 5️⃣ eSIM 流量 -->
+      <!-- 5️⃣ 新鲜有趣 -->
       <section id="esim">
         <h2 class="text-2xl font-semibold text-gray-900 mb-6 pl-3 border-l-4 border-pink-500">
-          eSIM 流量
+          新鲜有趣
         </h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <a
@@ -152,9 +152,6 @@
       </section>
     </main>
 
-    <footer class="mt-16 text-sm text-gray-400 text-center">
-      © 2025 AFF Hub · 部署于 Cloudflare Pages
-    </footer>
   </div>
 </template>
 
@@ -202,11 +199,11 @@ const resourceList = [
   { logo: '/logos/speedtest.png', title: 'Vercel', link: 'https://i.aff.dev/vercel', desc: '部署必选，和 cf 有一拼，各有优劣' }
 ]
 
-// eSIM 流量
+// 新鲜有趣
 const esimList = [
-  { logo: '/logos/redteago.png', title: 'RedteaGO', link: 'https://redteago.com', desc: '全球 eSIM 流量服务，覆盖 200+ 国家地区' },
-  { logo: '/logos/airalo.png', title: 'Airalo', link: 'https://www.airalo.com', desc: '全球 eSIM 流量服务，灵活套餐即买即用' },
-  { logo: '/logos/ubigi.png', title: 'Ubigi', link: 'https://www.ubigi.com', desc: '多国 eSIM 支持，应用简洁' },
-  { logo: '/logos/gigsky.png', title: 'GigSky', link: 'https://www.gigsky.com', desc: '适合国际旅行，流量价格友好' }
+  { logo: '/logos/redteago.png', title: '阮一峰的博客', link: 'https://i.aff.dev/', desc: '最不像程序员的程序员，文章很好' },
+  { logo: '/logos/airalo.png', title: '少数派', link: 'https://i.aff.dev/', desc: '收集国内外好玩的硬件、项目分享' },
+  { logo: '/logos/ubigi.png', title: 'Product Hunt', link: 'https://i.aff.dev/', desc: '全球最大项目投喂地，可以激发灵感' },
+  { logo: '/logos/gigsky.png', title: 'Kick Starter', link: 'https://i.aff.dev/', desc: '众筹之神，有意思的人都聚集在这里了' }
 ]
 </script>

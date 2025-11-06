@@ -163,7 +163,7 @@ import { useHead } from '#imports'
 
 useHead({
   title: 'AFF - All For Future',
-  meta: [{ name: 'description', content: 'AFF Hub - VPS、域名、论坛与资源导航' }]
+  meta: [{ name: 'description', content: 'Future is ours' }]
 })
 
 // VPS 主机
@@ -172,34 +172,34 @@ const vpsList = [
   { logo: '/logos/green.png', title: 'Green VPS', link: 'https://i.aff.dev/green', desc: '美西、东南亚节点，价格实惠，活动多' },
   { logo: '/logos/bwg.png', title: 'BandwagonHost', link: 'https://i.aff.dev/bwg', desc: '老牌 VPS，速度快，性价比高' },
   { logo: '/logos/rfc.png', title: 'RFC Host', link: 'https://i.aff.dev/rfc', desc: '香港、日本线路好，中国网络优化多' },
-  { logo: '/logos/vultr.png', title: 'Vultr', link: 'https://www.vultr.com', desc: '全球节点，计费灵活，适合开发测试' },
-  { logo: '/logos/hetzner.png', title: 'Hetzner', link: 'https://www.hetzner.com', desc: '德国高性能 VPS，价格极具竞争力' },
-  { logo: '/logos/aws.png', title: 'AWS Lightsail', link: 'https://aws.amazon.com/lightsail/', desc: '适合小型网站和轻量应用部署' },
-  { logo: '/logos/oracle.png', title: 'Oracle Cloud', link: 'https://www.oracle.com/cloud/', desc: '永久免费实例，适合个人使用' }
+  { logo: '/logos/vultr.png', title: 'OVH Cloud', link: 'https://i.aff.dev/ovh', desc: ' 欧洲、加拿大积分，独服巨多' },
+  { logo: '/logos/hetzner.png', title: 'Aliyun', link: 'https://i.aff.dev/aliyun', desc: '国产顶级阿里云，新手适合，客服反馈快' },
+  { logo: '/logos/aws.png', title: 'AWS Lightsail', link: 'https://i.aff.dev/aws', desc: '个人用很好，头 3 个月免费，或者是 6 个月' },
+  { logo: '/logos/oracle.png', title: 'Oracle Cloud', link: 'https://i.aff.dev/oracle', desc: '永久免费，开的节点看运气，ARM 那是神机' }
 ]
 
 // 域名注册
 const domainList = [
-  { logo: '/logos/namesilo.png', title: 'NameSilo', link: 'https://www.namesilo.com', desc: '终身免费 WHOIS 隐私保护 · 支持支付宝' },
-  { logo: '/logos/dynadot.png', title: 'Dynadot', link: 'https://www.dynadot.com', desc: '域名优惠多 · 控制台简洁 · DNS 快速' },
-  { logo: '/logos/cloudflare.png', title: 'Cloudflare', link: 'https://www.cloudflare.com', desc: '提供免费域名解析与安全防护' },
-  { logo: '/logos/google.png', title: 'Google Domains', link: 'https://domains.google', desc: '谷歌官方注册平台，管理简洁稳定' }
+  { logo: '/logos/namesilo.png', title: 'Spaceship', link: 'https://i.aff.dev/spaceship', desc: '终身免费 WHOIS 隐私保护 · 支持支付宝' },
+  { logo: '/logos/dynadot.png', title: 'Namesilo', link: 'https://i.aff.dev/namesilo', desc: '域名优惠多 · 控制台简洁 · DNS 快速' },
+  { logo: '/logos/cloudflare.png', title: 'Cloudflare', link: 'https://i.aff.dev/cf', desc: '提供免费域名解析与安全防护' },
+  { logo: '/logos/google.png', title: 'Godaddy', link: 'https://i.aff.dev/godaddy', desc: '老牌大户注册平台，谁能没有 Daddy' }
 ]
 
 // 论坛相关
 const forumList = [
-  { logo: '/logos/let.png', title: 'LowEndTalk', link: 'https://lowendtalk.com', desc: '知名 VPS 社区，发布优惠与测评' },
-  { logo: '/logos/hostloc.png', title: 'HostLoc', link: 'https://hostloc.com', desc: '中文主机交流区，技术与优惠分享' },
-  { logo: '/logos/reddit.png', title: 'Reddit VPS', link: 'https://www.reddit.com/r/vps/', desc: '海外主机讨论区，技术干货多' },
-  { logo: '/logos/wht.png', title: 'WebHostingTalk', link: 'https://www.webhostingtalk.com', desc: '老牌主机论坛，行业资讯汇总' }
+  { logo: '/logos/let.png', title: 'LowEndTalk', link: 'https://i.aff.dev/let', desc: '知名 VPS 社区，发布优惠与测评' },
+  { logo: '/logos/hostloc.png', title: 'NodeSeek', link: 'https://i.aff.dev/node', desc: '中文主机交流区，技术与优惠分享' },
+  { logo: '/logos/reddit.png', title: 'Linux Do', link: 'https://i.aff.dev/linux', desc: '海外主机讨论区，技术干货多' },
+  { logo: '/logos/wht.png', title: 'V2ex', link: 'https://i.aff.dev/v2ex', desc: '老牌主机论坛，行业资讯汇总' }
 ]
 
 // 资源汇总
 const resourceList = [
-  { logo: '/logos/awesome.png', title: 'Awesome Lists', link: 'https://github.com/sindresorhus/awesome', desc: '开源资源合集，涵盖开发与网络工具' },
-  { logo: '/logos/github.png', title: 'GitHub Tools', link: 'https://github.com/topics/vps', desc: '精选主机相关项目与工具' },
-  { logo: '/logos/config.png', title: 'Config Share', link: '#', desc: '各类配置模板分享，便于快速部署' },
-  { logo: '/logos/speedtest.png', title: 'SpeedTest.net', link: 'https://www.speedtest.net', desc: '测速工具汇总，测试网络质量' }
+  { logo: '/logos/awesome.png', title: 'GitHub', link: 'https://i.aff.dev/git', desc: '开源资源合集，涵盖开发与网络工具' },
+  { logo: '/logos/github.png', title: 'Reddit', link: 'https://i.aff.dev/reddit', desc: '各种问题都可以问，反响快速有用' },
+  { logo: '/logos/config.png', title: 'SpeedTest', link: 'https://i.aff.dev/speedtest', desc: '测速是唯一的快乐，快测测！' },
+  { logo: '/logos/speedtest.png', title: 'Vercel', link: 'https://i.aff.dev/vercel', desc: '部署必选，和 cf 有一拼，各有优劣' }
 ]
 
 // eSIM 流量

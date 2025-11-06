@@ -204,6 +204,6 @@ const esimList = [
   { logo: '/logos/redteago.png', title: '阮一峰的博客', link: 'https://i.aff.dev/', desc: '最不像程序员的程序员，文章很好' },
   { logo: '/logos/airalo.png', title: '少数派', link: 'https://i.aff.dev/', desc: '收集国内外好玩的硬件、项目分享' },
   { logo: '/logos/ubigi.png', title: 'Product Hunt', link: 'https://i.aff.dev/', desc: '全球最大项目投喂地，可以激发灵感' },
-  { logo: '/logos/gigsky.png', title: 'Kick Starter', link: 'https://i.aff.dev/', desc: '众筹之神，有意思的人都聚集在这里了' }
+  { logo: 'app/pages/kickstarter.png', title: 'Kick Starter', link: 'https://i.aff.dev/', desc: '众筹之神，有意思的人都聚集在这里了' }
 ]
 </script>

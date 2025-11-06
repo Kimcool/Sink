@@ -1,6 +1,5 @@
 <template>
   <div class="bg-white text-gray-800 pt-10 sm:pt-12 px-6">
-    <!-- 顶部主标题 -->
     <h1 class="text-5xl sm:text-6xl font-extrabold mb-12 text-center text-gray-900">
       🚀 Welcome to <span class="text-blue-600">AFF</span>
     </h1>
@@ -17,6 +16,7 @@
             v-for="(item, i) in vpsList"
             :key="i"
             :href="item.link"
+            target="_blank"
             class="group block rounded-2xl border border-gray-200 bg-white shadow-sm p-5 hover:scale-[1.03] hover:shadow-lg transition-all duration-300"
           >
             <div class="flex items-center gap-4 mb-5">
@@ -45,6 +45,7 @@
             v-for="(item, i) in domainList"
             :key="i"
             :href="item.link"
+            target="_blank"
             class="group block rounded-2xl border border-gray-200 bg-white shadow-sm p-5 hover:scale-[1.03] hover:shadow-lg transition-all duration-300"
           >
             <div class="flex items-center gap-4 mb-5">
@@ -73,6 +74,7 @@
             v-for="(item, i) in forumList"
             :key="i"
             :href="item.link"
+            target="_blank"
             class="group block rounded-2xl border border-gray-200 bg-white shadow-sm p-5 hover:scale-[1.03] hover:shadow-lg transition-all duration-300"
           >
             <div class="flex items-center gap-4 mb-5">
@@ -101,6 +103,7 @@
             v-for="(item, i) in resourceList"
             :key="i"
             :href="item.link"
+            target="_blank"
             class="group block rounded-2xl border border-gray-200 bg-white shadow-sm p-5 hover:scale-[1.03] hover:shadow-lg transition-all duration-300"
           >
             <div class="flex items-center gap-4 mb-5">
@@ -129,6 +132,7 @@
             v-for="(item, i) in esimList"
             :key="i"
             :href="item.link"
+            target="_blank"
             class="group block rounded-2xl border border-gray-200 bg-white shadow-sm p-5 hover:scale-[1.03] hover:shadow-lg transition-all duration-300"
           >
             <div class="flex items-center gap-4 mb-5">
@@ -148,10 +152,21 @@
       </section>
     </main>
 
+    <footer class="mt-16 text-sm text-gray-400 text-center">
+      © 2025 AFF Hub · 部署于 Cloudflare Pages
+    </footer>
   </div>
 </template>
 
 <script setup>
+import { useHead } from '#imports'
+
+useHead({
+  title: 'AFF - All For Future',
+  meta: [{ name: 'description', content: 'AFF Hub - VPS、域名、论坛与资源导航' }]
+})
+
+// VPS 主机
 const vpsList = [
   { logo: '/logos/dmit.png', title: 'Dmit', link: 'https://i.aff.dev/dmit', desc: '美西、日本、香港线路，稳定可靠' },
   { logo: '/logos/green.png', title: 'Green VPS', link: 'https://i.aff.dev/green', desc: '美西、东南亚节点，价格实惠，活动多' },
@@ -163,6 +178,7 @@ const vpsList = [
   { logo: '/logos/oracle.png', title: 'Oracle Cloud', link: 'https://www.oracle.com/cloud/', desc: '永久免费实例，适合个人使用' }
 ]
 
+// 域名注册
 const domainList = [
   { logo: '/logos/namesilo.png', title: 'NameSilo', link: 'https://www.namesilo.com', desc: '终身免费 WHOIS 隐私保护 · 支持支付宝' },
   { logo: '/logos/dynadot.png', title: 'Dynadot', link: 'https://www.dynadot.com', desc: '域名优惠多 · 控制台简洁 · DNS 快速' },
@@ -170,6 +186,7 @@ const domainList = [
   { logo: '/logos/google.png', title: 'Google Domains', link: 'https://domains.google', desc: '谷歌官方注册平台，管理简洁稳定' }
 ]
 
+// 论坛相关
 const forumList = [
   { logo: '/logos/let.png', title: 'LowEndTalk', link: 'https://lowendtalk.com', desc: '知名 VPS 社区，发布优惠与测评' },
   { logo: '/logos/hostloc.png', title: 'HostLoc', link: 'https://hostloc.com', desc: '中文主机交流区，技术与优惠分享' },
@@ -177,6 +194,7 @@ const forumList = [
   { logo: '/logos/wht.png', title: 'WebHostingTalk', link: 'https://www.webhostingtalk.com', desc: '老牌主机论坛，行业资讯汇总' }
 ]
 
+// 资源汇总
 const resourceList = [
   { logo: '/logos/awesome.png', title: 'Awesome Lists', link: 'https://github.com/sindresorhus/awesome', desc: '开源资源合集，涵盖开发与网络工具' },
   { logo: '/logos/github.png', title: 'GitHub Tools', link: 'https://github.com/topics/vps', desc: '精选主机相关项目与工具' },
@@ -184,14 +202,11 @@ const resourceList = [
   { logo: '/logos/speedtest.png', title: 'SpeedTest.net', link: 'https://www.speedtest.net', desc: '测速工具汇总，测试网络质量' }
 ]
 
+// eSIM 流量
 const esimList = [
   { logo: '/logos/redteago.png', title: 'RedteaGO', link: 'https://redteago.com', desc: '全球 eSIM 流量服务，覆盖 200+ 国家地区' },
   { logo: '/logos/airalo.png', title: 'Airalo', link: 'https://www.airalo.com', desc: '全球 eSIM 流量服务，灵活套餐即买即用' },
   { logo: '/logos/ubigi.png', title: 'Ubigi', link: 'https://www.ubigi.com', desc: '多国 eSIM 支持，应用简洁' },
   { logo: '/logos/gigsky.png', title: 'GigSky', link: 'https://www.gigsky.com', desc: '适合国际旅行，流量价格友好' }
 ]
-
-  useHead({
-  title: 'AFF - All For Future',
-    
 </script>

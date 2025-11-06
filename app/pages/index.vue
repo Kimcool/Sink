@@ -180,7 +180,7 @@ const domainList = [
   { logo: '/logos/namesilo.png', title: 'Spaceship', link: 'https://i.aff.dev/spaceship', desc: '终身免费 WHOIS 隐私保护 · 支持支付宝' },
   { logo: '/logos/dynadot.png', title: 'Namesilo', link: 'https://i.aff.dev/namesilo', desc: '域名优惠多 · 控制台简洁 · DNS 快速' },
   { logo: '/logos/cloudflare.png', title: 'Cloudflare', link: 'https://i.aff.dev/cf', desc: '提供免费域名解析与安全防护' },
-  { logo: '/logos/google.png', title: 'Godaddy', link: 'https://i.aff.dev/godaddy', desc: '老牌大户注册平台，谁能没有 Daddy' }
+  { logo: '/pages/godaddy.webp', title: 'Godaddy', link: 'https://i.aff.dev/godaddy', desc: '老牌大户注册平台，谁能没有 Daddy' }
 ]
 
 // 论坛相关

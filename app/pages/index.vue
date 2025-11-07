@@ -201,7 +201,7 @@ const resourceList = [
 
 // 新鲜有趣
 const esimList = [
-  { logo: '/ryf.jpg', title: '阮一峰的博客', link: 'https://i.aff.dev/ryf', desc: '最不像程序员的程序员，文章很好' },
+  { logo: '/ryf.jpeg', title: '阮一峰的博客', link: 'https://i.aff.dev/ryf', desc: '最不像程序员的程序员，文章很好' },
   { logo: '/sspai.png', title: '少数派', link: 'https://i.aff.dev/sspai', desc: '收集国内外好玩的硬件、项目分享' },
   { logo: '/ph.png', title: 'Product Hunt', link: 'https://i.aff.dev/ph', desc: '全球最大项目投喂地，可以激发灵感' },
   { logo: '/kickstarter.png', title: 'Kick Starter', link: 'https://i.aff.dev/kick', desc: '众筹之神，有意思的人都聚集在这里了' }

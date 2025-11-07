@@ -171,8 +171,8 @@ const vpsList = [
   { logo: '/rfc.png', title: 'RFC Host', link: 'https://i.aff.dev/rfc', desc: '香港、日本线路好，中国网络优化多' },
   { logo: '/ovh.jpg', title: 'OVH Cloud', link: 'https://i.aff.dev/ovh', desc: ' 欧洲、加拿大积分，独服巨多' },
   { logo: '/aliyun.png', title: 'Aliyun', link: 'https://i.aff.dev/aliyun', desc: '国产顶级阿里云，新手适合，客服反馈快' },
-  { logo: '/aws.webp', title: 'AWS Lightsail', link: 'https://i.aff.dev/aws', desc: '个人用很好，头 3 个月免费，或者是 6 个月' },
-  { logo: '/oracle.webp', title: 'Oracle Cloud', link: 'https://i.aff.dev/oracle', desc: '永久免费，开的节点看运气，ARM 那是神机' }
+  { logo: '/aws.webp', title: 'AWS Lightsail', link: 'https://i.aff.dev/aws', desc: '个人用很好，3 或者 6 个月免费' },
+  { logo: '/oracle.webp', title: 'Oracle Cloud', link: 'https://i.aff.dev/oracle', desc: '永久免费，开节点看运气' }
 ]
 
 // 域名注册

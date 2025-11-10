@@ -167,7 +167,7 @@ useHead({
 const vpsList = [
   { logo: '/dmit.webp', title: 'Dmit', link: 'https://i.aff.dev/dmit', desc: '美西、日本、香港线路，稳定可靠' },
   { logo: '/green.jpg', title: 'Green VPS', link: 'https://i.aff.dev/green', desc: '美西、东南亚节点，价格实惠，活动多' },
-  { logo: '/bwg.jpg', title: 'BandwagonHost', link: 'https://i.aff.dev/bwg', desc: '老牌 VPS，速度快，性价比高' },
+  { logo: '/bwg.jpg', title: '搬瓦工', link: 'https://i.aff.dev/bwg', desc: '老牌 VPS，速度快，性价比高' },
   { logo: '/rfc.png', title: 'RFC Host', link: 'https://i.aff.dev/rfc', desc: '香港、日本线路好，中国网络优化多' },
   { logo: '/ovh.jpg', title: 'OVH Cloud', link: 'https://i.aff.dev/ovh', desc: ' 欧洲、加拿大积分，独服巨多' },
   { logo: '/aliyun.png', title: 'Aliyun', link: 'https://i.aff.dev/aliyun', desc: '国产顶级阿里云，新手适合，客服反馈快' },

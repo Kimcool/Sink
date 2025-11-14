@@ -13,7 +13,7 @@ const { title, email, telegram, blog, twitter, mastodon, github } = useAppConfig
       "
     >
 
-        &copy; {{ new Date().getFullYear() }} 部署于 Cloudflare Workers
+        &copy; {{ new Date().getFullYear() }} 部署于 Cloudflare Workers & <a href="https://github.com/ccbikai/sink" target="_blank" rel="noopener noreferrer">Sink</a>
 
     </div>
   </section>

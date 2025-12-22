@@ -165,45 +165,45 @@ useHead({
 
 // VPS 主机
 const vpsList = [
-  { logo: '/dmit.webp', title: 'Dmit', link: 'https://i.aff.dev/dmit', desc: '美西、日本、香港线路，稳定可靠' },
-  { logo: '/green.jpg', title: 'Green VPS', link: 'https://i.aff.dev/green', desc: '美西、东南亚节点，价格实惠，活动多' },
-  { logo: '/bwg.jpg', title: '搬瓦工', link: 'https://i.aff.dev/bwg', desc: '老牌 VPS，速度快，性价比高' },
-  { logo: '/rfc.png', title: 'RFC Host', link: 'https://i.aff.dev/rfc', desc: '香港、日本线路好，中国网络优化多' },
-  { logo: '/ovh.jpg', title: 'OVH Cloud', link: 'https://i.aff.dev/ovh', desc: ' 欧洲、加拿大积分，独服巨多' },
-  { logo: '/aliyun.png', title: 'Aliyun', link: 'https://i.aff.dev/aliyun', desc: '国产顶级阿里云，新手适合，客服反馈快' },
-  { logo: '/aws.webp', title: 'AWS Lightsail', link: 'https://i.aff.dev/aws', desc: '个人用很好，3 或者 6 个月免费' },
-  { logo: '/oracle.webp', title: 'Oracle Cloud', link: 'https://i.aff.dev/oracle', desc: '永久免费，开节点看运气' }
+  { logo: '/dmit.webp', title: 'Dmit', link: 'https://aff.dev/dmit', desc: '美西、日本、香港线路，稳定可靠' },
+  { logo: '/green.jpg', title: 'Green VPS', link: 'https://aff.dev/green', desc: '美西、东南亚节点，价格实惠，活动多' },
+  { logo: '/bwg.jpg', title: '搬瓦工', link: 'https://aff.dev/bwg', desc: '老牌 VPS，速度快，性价比高' },
+  { logo: '/rfc.png', title: 'RFC Host', link: 'https://aff.dev/rfc', desc: '香港、日本线路好，中国网络优化多' },
+  { logo: '/ovh.jpg', title: 'OVH Cloud', link: 'https://aff.dev/ovh', desc: ' 欧洲、加拿大积分，独服巨多' },
+  { logo: '/aliyun.png', title: 'Aliyun', link: 'https://aff.dev/aliyun', desc: '国产顶级阿里云，新手适合，客服反馈快' },
+  { logo: '/aws.webp', title: 'AWS Lightsail', link: 'https://aff.dev/aws', desc: '个人用很好，3 或者 6 个月免费' },
+  { logo: '/oracle.webp', title: 'Oracle Cloud', link: 'https://aff.dev/oracle', desc: '永久免费，开节点看运气' }
 ]
 
 // 域名注册
 const domainList = [
-  { logo: '/spaceship.webp', title: 'Spaceship', link: 'https://i.aff.dev/spaceship', desc: '终身免费 WHOIS 隐私保护 · 支持支付宝' },
-  { logo: '/namesilo.webp', title: 'Namesilo', link: 'https://i.aff.dev/namesilo', desc: '域名优惠多 · 控制台简洁 · DNS 快速' },
-  { logo: '/cf.jpg', title: 'Cloudflare', link: 'https://i.aff.dev/cf', desc: '提供免费域名解析与安全防护' },
-  { logo: '/godaddy.webp', title: 'Godaddy', link: 'https://i.aff.dev/godaddy', desc: '老牌大户注册平台，谁能没有 Daddy' }
+  { logo: '/spaceship.webp', title: 'Spaceship', link: 'https://aff.dev/spaceship', desc: '终身免费 WHOIS 隐私保护 · 支持支付宝' },
+  { logo: '/namesilo.webp', title: 'Namesilo', link: 'https://aff.dev/namesilo', desc: '域名优惠多 · 控制台简洁 · DNS 快速' },
+  { logo: '/cf.jpg', title: 'Cloudflare', link: 'https://aff.dev/cf', desc: '提供免费域名解析与安全防护' },
+  { logo: '/godaddy.webp', title: 'Godaddy', link: 'https://aff.dev/godaddy', desc: '老牌大户注册平台，谁能没有 Daddy' }
 ]
 
 // 论坛相关
 const forumList = [
-  { logo: '/let.png', title: 'LowEndTalk', link: 'https://i.aff.dev/let', desc: '知名国外 VPS 社区，发布优惠与测评' },
-  { logo: '/node.jpg', title: 'NodeSeek', link: 'https://i.aff.dev/node', desc: '中文主机交流区，技术与优惠分享' },
-  { logo: '/linuxdo.png', title: 'Linux Do', link: 'https://i.aff.dev/linux', desc: ' 技术氛围还行，可以问很多问题' },
-  { logo: '/v2ex.png', title: 'V2ex', link: 'https://i.aff.dev/v2ex', desc: '国内第一技术交流论坛，现在吹水巨多' }
+  { logo: '/let.png', title: 'LowEndTalk', link: 'https://aff.dev/let', desc: '知名国外 VPS 社区，发布优惠与测评' },
+  { logo: '/node.jpg', title: 'NodeSeek', link: 'https://aff.dev/node', desc: '中文主机交流区，技术与优惠分享' },
+  { logo: '/linuxdo.png', title: 'Linux Do', link: 'https://aff.dev/linux', desc: ' 技术氛围还行，可以问很多问题' },
+  { logo: '/v2ex.png', title: 'V2ex', link: 'https://aff.dev/v2ex', desc: '国内第一技术交流论坛，现在吹水巨多' }
 ]
 
 // 资源汇总
 const resourceList = [
-  { logo: '/github.webp', title: 'GitHub', link: 'https://i.aff.dev/git', desc: '开源资源合集，涵盖开发与网络工具' },
-  { logo: '/reddit.jpg', title: 'Reddit', link: 'https://i.aff.dev/reddit', desc: '各种问题都可以问，反响快速有用' },
-  { logo: '/speedtest.png', title: 'SpeedTest', link: 'https://i.aff.dev/speedtest', desc: '测速是唯一的快乐，快测测！' },
-  { logo: '/vercel.webp', title: 'Vercel', link: 'https://i.aff.dev/vercel', desc: '部署必选，和 cf 有一拼，各有优劣' }
+  { logo: '/github.webp', title: 'GitHub', link: 'https://aff.dev/git', desc: '开源资源合集，涵盖开发与网络工具' },
+  { logo: '/reddit.jpg', title: 'Reddit', link: 'https://aff.dev/reddit', desc: '各种问题都可以问，反响快速有用' },
+  { logo: '/speedtest.png', title: 'SpeedTest', link: 'https://aff.dev/speedtest', desc: '测速是唯一的快乐，快测测！' },
+  { logo: '/vercel.webp', title: 'Vercel', link: 'https://aff.dev/vercel', desc: '部署必选，和 cf 有一拼，各有优劣' }
 ]
 
 // 新鲜有趣
 const esimList = [
-  { logo: '/ryf.jpeg', title: '阮一峰的博客', link: 'https://i.aff.dev/ryf', desc: '最不像程序员的程序员，文章很好' },
-  { logo: '/sspai.png', title: '少数派', link: 'https://i.aff.dev/sspai', desc: '收集国内外好玩的硬件、项目分享' },
-  { logo: '/ph.png', title: 'Product Hunt', link: 'https://i.aff.dev/ph', desc: '全球最大项目投喂地，可以激发灵感' },
-  { logo: '/kickstarter.png', title: 'Kick Starter', link: 'https://i.aff.dev/kick', desc: '众筹之神，有意思的人都聚集在这里了' }
+  { logo: '/ryf.jpeg', title: '阮一峰的博客', link: 'https://aff.dev/ryf', desc: '最不像程序员的程序员，文章很好' },
+  { logo: '/sspai.png', title: '少数派', link: 'https://aff.dev/sspai', desc: '收集国内外好玩的硬件、项目分享' },
+  { logo: '/ph.png', title: 'Product Hunt', link: 'https://aff.dev/ph', desc: '全球最大项目投喂地，可以激发灵感' },
+  { logo: '/kickstarter.png', title: 'Kick Starter', link: 'https://aff.dev/kick', desc: '众筹之神，有意思的人都聚集在这里了' }
 ]
 </script>
